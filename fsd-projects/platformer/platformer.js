@@ -22,12 +22,8 @@ $(function () {
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
-    //////////////////////////////////
-    // ONLY CHANGE BELOW THIS POINT //
-    //////////////////////////////////
-
-    // TODO 1 - Enable the Grid
-    // toggleGrid();
+   
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
